@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina perfil</title>
+    <link rel = "stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "central">
+        <div class = "uno">
+            <div class = "unoUno">
+                <ul class = "selectores">
+                    <li><h1 class ="h1">Profile</h1></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">My Profile</a></li>
+                    <li><a href="#">Find Conections</a></li>
+                </ul>
+            </div>
+            <div class = "unoDos">
+                <button class="btn">Sign Out</button>
+            </div>
+        </div>
+        <div class = "dos">
+            <div class = "dosUno">
+                <div class = "a">
+                    <div class = "card-header">
+                        <img src="icons/user-circle.png" alt = "Circulo" class="avatar">
+                    </div>
+                    <div class ="card-body">
+                        <h1 id = "perfilName">Santiago Gutiérrez</h1>
+                        <h3>
+                            <img src="icons/map-marker.png" alt="pin" class="mapmarker">
+                            Colombia
+                        </h3>
+                        <p>
+                            Desarrollador | Ingeniero | Soñador
+                            Web developer and 
+                            mechanical engineer
+                        </p>
+                        <p>
+                            <a class = "link" href="#" onclick="changeName()">
+                                <img src="icons/gear.png" alt="gear" class="mapmarker">
+                                Editar perfil
+                            </a>
+                        </p>
+            
+                    </div>
+                </div>
+                <div class = "b">
+                    <div class = "b1">
+                        <h2>Education</h2>
+                    </div>
+                    <div class = "b2">
+                        <h1>Coding Dojo - Full Stack Bootcamp</h1>
+                        <h3 class= "suave">Dec 2021 March 2022</h3>
+                        <h3>Triple black belt en Python, MERN and c#</h3>
+                        <h1>Mechanic Enginner</h1>
+                        <h3 class = "suave">March 2013 March 2019</h3>
+                        <h3>Mantenance and energy curses</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class = "dosDos">
+                <div class = "c">
+                    <div class ="c1">
+                        <h1 class = "round"> 3 </h1>
+                        <h2>Connection Requests</h2>
+                    </div>
+                    <div class = "c2">
+                        <div class = "content" id = "Adrien" >
+                            <img src = "icons/adrien-s.jpg" alt = "Adrien">
+                            <h2 class = "black" >Adrien S</h2>
+                                <button onclick="removeItem(`#Adrien`,`chulo`)">
+                                    <img src = "icons/chulo.png" alt = "Chulo">
+                                </button>
+                                <button onclick="removeItem(`#Adrien`,`equis`)">
+                                    <img src = "icons/equis.png" alt = "Equis">
+                                </button>
+                        </div>
+                        <div class = "content" id = "Alayne">
+                            <img src = "icons/alayne-s.jpg" alt = "Alayne">
+                            <h2 class = "black">Alayne-S </h2>
+                            <button onclick="removeItem(`#Alayne`,`chulo`)">
+                                <img src = "icons/chulo.png" alt = "chulo">
+                            </button>
+                            <button onclick="removeItem(`#Alayne`,`equis`)">
+                                <img src = "icons/equis.png" alt = "equis">
+                            </button>
+                        </div>
+                        <div class = "content" id = "Anne">
+                            <img src = "icons/anne-s.jpg" alt = "Anne">
+                            <h2 class = "black">Anne  -S</h2>
+                            <button onclick="removeItem(`#Anne`,`chulo`)">
+                                <img src = "icons/chulo.png" alt = "Adrien">
+                            </button>
+                            <button onclick="removeItem(`#Anne`,`equis`)">
+                                <img src = "icons/equis.png" alt = "Adrien">
+                            </button>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class = "d">
+                    <div class ="d1">
+                        <h1 class = "round2"> 500 </h1>
+                        <h2>Your connections</h2>
+                    </div>
+                    <div class = "d2">
+                        <div class = "content2">
+                            <img src = "icons/arry-s.jpg" alt = "Arry-s">
+                            <h2 class = "black">Arry-s</h2>
+                        </div>
+                        <div class = "content2">
+                            <img src = "icons/jane-m.jpg" alt = "Jane-m">
+                            <h2 class = "black">Jane-m</h2>
+                        </div>
+                        <div class = "content2">
+                            <img src = "icons/phil-s.jpg" alt = "phil-s">
+                            <h2 class = "black">Philis-s</h2>
+                        </div>
+                        <div class = "content2">
+                            <img src = "icons/anne-s.jpg" alt = "Anne">
+                            <h2 class = "black">Anne-S</h2>
+                        </div>
+                    </div>
+                    <div class ="d3">
+                        <a class = "link2" href="#">View More</a>
+                    </div>
+                </div>
+                <div class = "e">
+                    <div class ="e1">
+                        <h2>Jobs</h2>
+                    </div>
+                    <div class = "e2">    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src = "js/script.js"></script>
+</body>
+</html>

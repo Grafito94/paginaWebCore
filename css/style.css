@@ -1,0 +1,311 @@
+/* RESET */
+
+*{
+    margin:0 ;
+    padding: 0;
+}
+
+
+.central{
+    background-color: white;
+    width:100%;
+    height:1120px;
+}
+
+.uno{
+    display: flex;
+    background-color: rgb(33, 33, 31);
+    width:100%;
+    height:50px;
+
+}
+
+.unoUno{
+    display: flex;
+    flex:7;
+    background-color: rgb(33, 33, 31);
+    margin: 4px 100px;
+
+}
+
+.unoDos{
+    display: flex;
+    flex:1;
+    margin: 4px 120px 4px;
+
+}
+
+.dos{
+    display: flex;
+    background-color:white;
+    height:1000px;
+    margin: 10px 100px 10px 100px;
+}
+
+.dosUno{
+    display: flex;
+    background-color: white;
+    flex:2.5;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+.dosDos{
+    display: flex;
+    background-color: white;
+    flex:1.2;
+    flex-direction: column;
+    margin: 15px;
+
+}
+
+.a{
+    flex:1.8;
+    border: 4px solid grey;
+}
+
+.b{
+    display: flex;
+    flex-direction: column;
+    flex:1.4;
+    border: 4px solid grey;
+    margin: 15px 0px 15px 0px ;
+}
+
+.c{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    border: 4px solid grey;
+
+}
+
+.d{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    border: 4px solid grey;
+    margin: 15px 0px 15px 0px;
+    
+}
+.e{
+    display: flex;
+    flex-direction: column;
+    flex:2;
+    border: 4px solid grey;
+    margin: 0px 0px 15px 0px;
+
+    
+}
+
+.c1{
+    display: flex;
+    background-color: rgb(38, 41, 41);
+    align-items: center;
+    justify-content:space-around;
+    padding: 5px 60px 5px 60px;
+}
+.c2{
+    flex:3;
+    font-size: 20px;
+    background-color:white;
+    padding: 0px 0px 30px 0px;
+}
+
+.d1{
+    display: flex;
+    background-color: rgb(38, 41, 41);
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 5px 60px 5px 60px;
+}
+.d2{
+    flex:6;
+    font-size: 20px;
+    background-color:white;
+    padding: 0px 0px 30px 0px;
+}
+
+.d3{
+    display: flex;
+    font-size: 20px;
+    background-color:gray;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.e1{
+    display: flex;
+    background-color: rgb(38, 41, 41);
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+}
+.e2{
+    flex:3;
+    background-color: white;
+}
+
+.b1{
+    display: flex;
+    background-color: rgb(38, 41, 41);
+    align-items: center;
+    padding: 5px 25px 5px 25px;
+}
+.b2{
+    flex:6;
+    background-color: white;
+    padding: 30px;
+    line-height : 45px;
+
+}
+
+.card-header{
+    height: 130px;
+    background-color: rgb(47, 186, 186);
+    margin-bottom: 70px;
+}
+
+.avatar{
+    height: 140px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    border: 2px solid gray;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+}
+
+.card-body{
+    padding: 45px 70px 20px 70px;
+    background-color: white;
+}
+
+.mapmarker{
+    height: 30px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+    
+}
+.selectores{
+    display: flex;
+    flex: 1;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.btn{
+    flex: 1;
+    border: 2px solid white;
+    background-color: rgb(31, 176, 176);
+    color: azure;
+    width: 20px;
+    font-size: 15px
+
+}
+
+.link{
+    color: blue;
+
+}
+
+h2{
+    font-size: 17px;
+    color: white;
+    
+}
+
+.round{
+    display: flex;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.round2{
+    display: flex;
+    font-size: 18px;
+    width: 45px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.suave{
+    color: gray;
+}
+
+.content{
+    display: flex;
+    padding: 20px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-around;
+    color:black;
+
+}
+
+.round3{
+    display: flex;
+    font-size: 18px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: gray;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height:45px;
+    border-radius: 50%;
+}
+
+.black{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color:black;
+}
+
+.content2{
+    display: flex;
+    padding: 30px 0px 0px 20px;
+    align-items: center;
+    color:black;
+}
+
+.link2{
+    font-size: 20px;
+    color:blue;
+
+}
+
+button{
+    border-style: none;
+    background-color: white;
+}
